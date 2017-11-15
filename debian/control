@@ -11,6 +11,8 @@ Vcs-Browser: https://github.com/BunsenLabs/bunsen-configs-pulse
 Package: bunsen-configs-pulse
 Architecture: all
 Depends: ${misc:Depends}, pulseaudio
+Replaces: bunsen-configs (<< 9.2-1)
+Breaks: bunsen-configs (<< 9.2-1)
 Description: config files for PulseAudio on BunsenLabs Linux
  Contains config files to help PulseAudio work
  on a BunsenLabs installation.
