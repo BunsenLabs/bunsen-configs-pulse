@@ -1,0 +1,18 @@
+Source: bunsen-configs-pulse
+Section: misc
+Priority: optional
+Maintainer: John Crawley <john@bunsenlabs.org>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.5
+Homepage: https://github.com/BunsenLabs/bunsen-configs-pulse
+Vcs-Git: https://github.com/BunsenLabs/bunsen-configs-pulse.git
+Vcs-Browser: https://github.com/BunsenLabs/bunsen-configs-pulse
+
+Package: bunsen-configs-pulse
+Architecture: all
+Depends: ${misc:Depends}, pulseaudio
+Description: config files for PulseAudio on BunsenLabs Linux
+ Contains config files to help PulseAudio work
+ on a BunsenLabs installation.
+ . 
+ This package depends on pulseaudio. 
