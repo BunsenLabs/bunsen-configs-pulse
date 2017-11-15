@@ -1,0 +1,5 @@
+bunsen-configs-pulse (9.0-1) helium; urgency=medium
+
+  * Initial release.
+
+ -- John Crawley <john@bunsenlabs.org>  Wed, 15 Nov 2017 16:10:28 +0900
