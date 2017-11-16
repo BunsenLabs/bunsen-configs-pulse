@@ -8,4 +8,5 @@ If PulseAudio is removed from the system,
 this package should be removed too.
 
 Current contents are:
-/etc/asound.conf for alsa using PulseAudio.
+/etc/asound.conf
+/etc/pulse/daemon.conf.d/bunsen.conf
