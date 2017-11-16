@@ -1,5 +1,11 @@
+bunsen-configs-pulse (9.0.1-1) helium; urgency=medium
+
+  * Disable flat volumes.
+
+ -- John Crawley <john@bunsenlabs.org>  Thu, 16 Nov 2017 17:01:02 +0900
+
 bunsen-configs-pulse (9.0-1) helium; urgency=medium
 
-  * Initial release.
+  * Initial release. (Set pulse as default in /etc/asound.conf.)
 
  -- John Crawley <john@bunsenlabs.org>  Wed, 15 Nov 2017 16:10:28 +0900
