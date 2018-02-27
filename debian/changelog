@@ -1,3 +1,9 @@
+bunsen-configs-pulse (9.1-1) helium; urgency=medium
+
+  * Remove redundant /etc/asound.conf (handled by pulseaudio).
+
+ -- John Crawley <john@bunsenlabs.org>  Tue, 27 Feb 2018 14:47:17 +0900
+
 bunsen-configs-pulse (9.0.1-1) helium; urgency=medium
 
   * Disable flat volumes.
